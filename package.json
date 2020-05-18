@@ -1,0 +1,22 @@
+{
+  "name": "hack-the-resume",
+  "version": "1.0.0",
+  "description": "the app creates a resume from a simple JSON object",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctln12/hack-the-resume.git"
+  },
+  "author": "Cataline Baert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctln12/hack-the-resume/issues"
+  },
+  "homepage": "https://github.com/ctln12/hack-the-resume#readme",
+  "dependencies": {
+    "resume-schema": "^0.1.3"
+  }
+}
