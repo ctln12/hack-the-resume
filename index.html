@@ -4,10 +4,112 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hack the Resume</title>
+  <!-- Personal style -->
   <link rel="stylesheet" href="style.css">
-  <script src="app.js"></script>
+  <!-- Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@300;400;600;700&display=swap">
 </head>
 <body>
-  <h1>Hello World</h1>
+  <div class="container">
+    <div id="sidebar">
+      <img id="picture" src="picture.png" alt="picture">
+      <div id="profile" class="section">
+        <h4 class="subtitles">Profile</h4>
+        <p id="summary">A summary of John Doe</p>
+      </div>
+      <div id="skills" class="section">
+        <h4 class="subtitles">Skills</h4>
+        <p>Web Development</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+      </div>
+      <div id="languages" class="section">
+        <h4 class="subtitles">Languages</h4>
+        <div class="language">
+          <p class="name">English (
+            <span class="proficiency">native</span>
+          )</p>
+        </div>
+        <div class="language">
+          <p class="name">French (
+            <span class="proficiency">B2</span>
+            )</p>
+        </div>
+      </div>
+      <div id="interests" class="section">
+        <h4 class="subtitles">Interests</h4>
+        <p>Wildlife</p>
+        <p>Photography</p>
+      </div>
+      <div id="social-media" class="section">
+        <h4>Social medias</h4>
+        <p id="website"><a href="#">http://johndoe.com</a></p>
+        <p id="twitter"><a href="#">http://twitter.com/john</a></p>
+      </div>
+      <div id="contacts" class="section">
+        <h4 class="subtitles">Contact</h4>
+        <p id="email">john@gmail.com</p>
+        <p id="phone">(912) 555-4321</p>
+        <p id="address">2712 Broadway St</p>
+        <p id="code">
+          <span id="region">CA</span>
+          94115
+        </p>
+        <p id="city">San Francisco</p>
+        <p id="country">US</p>
+      </div>
+    </div>
+
+    <div id="header">
+      <h1 id="name">John Doe</h1>
+      <h3 id="label">Programmer</h3>
+    </div>
+
+    <div id="main">
+      <hr class="line">
+      <div id="work" class="section">
+        <h4 class="subtitles">Work</h4>
+        <p class="company">Company</p>
+        <p class="position">President</p>
+        <p class="start-date">2012-01-01</p>
+        <p class="end-date">2013-01-01</p>
+        <p class="description">Description...</p>
+      </div>
+      <div id="education" class="section">
+        <h4 class="subtitles">Education</h4>
+        <p class="institution">University</p>
+        <p class="area">Software Development</p>
+        <p class="study-type">Bachelor</p>
+        <p class="start-date">2012-01-01</p>
+        <p class="end-date">2013-01-01</p>
+        <p class="description">Description...</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- javascripts -->
+  <script src="app.js"></script>
 </body>
 </html>
+
+<!-- {
+"basics": {
+"name": "John Doe",
+"label": "Programmer",
+"picture": "",
+"email": "john@gmail.com",
+"phone": "(912) 555-4321",
+"website": "http://johndoe.com",
+"summary": "A summary of John Doe...",
+"location": {
+"address": "2712 Broadway St",
+"postalCode": "CA 94115",
+"city": "San Francisco",
+"countryCode": "US",
+"region": "California"
+}
+}
+} -->
